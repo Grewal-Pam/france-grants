@@ -1,8 +1,6 @@
 # 🇫🇷 France Development Grants API  
 
-# 🇫🇷 France Development Grants API  
-
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Grewal-Pam/france-health-grants/ci.yml?style=flat-square&label=CI%20Build)](https://github.com/Grewal-Pam/france-health-grants/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Grewal-Pam/france-grants/.github/workflows/ci.yml?branch=dev&style=flat-square&label=CI%20Build)](https://github.com/Grewal-Pam/france-grants/actions)
 ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue?style=flat-square)
 [![Deploy](https://img.shields.io/badge/Render-Live%20API-success?style=flat-square&logo=render)](https://france-grants.onrender.com/docs)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
