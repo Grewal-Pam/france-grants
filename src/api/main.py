@@ -3,25 +3,50 @@ from sqlalchemy import create_engine, text
 from src.utils.africa import AFRICA
 
 import os
+import pandas as pd
+from sqlalchemy import create_engine
 from src.ingest.load_sheet import load_csv
 from src.ingest.load_to_db import write_df
 
-# -------------------------------------------------------------------
-# 🔄 Data bootstrap on startup
-# -------------------------------------------------------------------
-if not os.path.exists("grants.db"):
-    csv_path = "data/raw/grants.csv"
-    if os.path.exists(csv_path):
-        try:
-            print("⚙️  Bootstrapping database from CSV...")
-            df = load_csv(csv_path)
-            write_df(df, "grants.db")
-            print("✅ Database initialized successfully.")
-        except Exception as e:
-            print(f"❌ Database initialization failed: {e}")
-    else:
-        print("⚠️ CSV file not found, skipping DB creation.")
+DB_PATH = "grants.db"
+CSV_PATH = "data/raw/grants.csv"
 
+def bootstrap_database():
+    """Ensure the grants.db file and table exist."""
+    if not os.path.exists(DB_PATH):
+        if os.path.exists(CSV_PATH):
+            try:
+                print("⚙️  Bootstrapping database from CSV...")
+                df = load_csv(CSV_PATH)
+                # ✅ Sanity: ensure amount column exists
+                if "usd_commitment" in df.columns:
+                    df = df.rename(columns={"usd_commitment": "amount_usd"})
+                elif "usd_disbursement" in df.columns:
+                    df = df.rename(columns={"usd_disbursement": "amount_usd"})
+                else:
+                    raise ValueError("No amount column found in CSV")
+
+                write_df(df, DB_PATH)
+                print(f"✅ Created {DB_PATH} with {len(df)} records.")
+            except Exception as e:
+                print(f"❌ Database initialization failed: {e}")
+        else:
+            print("⚠️ CSV not found, skipping DB creation.")
+    else:
+        # Optional sanity check
+        try:
+            engine = create_engine(f"sqlite:///{DB_PATH}")
+            with engine.connect() as conn:
+                result = conn.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='grants';")
+                if result.fetchone() is None:
+                    raise RuntimeError("⚠️ grants table missing — rebuilding database.")
+        except Exception as e:
+            print(f"⚠️ Database check failed: {e}, rebuilding...")
+            os.remove(DB_PATH)
+            bootstrap_database()
+
+# Run bootstrap once before API starts
+bootstrap_database()
 
 app = FastAPI(title="Grants API")
 engine = create_engine("sqlite:///./grants.db", future=True)
