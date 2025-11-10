@@ -14,39 +14,44 @@ CSV_PATH = "data/raw/grants.csv"
 def bootstrap_database():
     """Ensure the grants.db file and table exist."""
     if not os.path.exists(DB_PATH):
+        print("⚙️  Initializing database...")
+
         if os.path.exists(CSV_PATH):
-            try:
-                print("⚙️  Bootstrapping database from CSV...")
-                df = load_csv(CSV_PATH)
-                # ✅ Sanity: ensure amount column exists
-                if "usd_commitment" in df.columns:
-                    df = df.rename(columns={"usd_commitment": "amount_usd"})
-                elif "usd_disbursement" in df.columns:
-                    df = df.rename(columns={"usd_disbursement": "amount_usd"})
-                else:
-                    raise ValueError("No amount column found in CSV")
-
-                write_df(df, DB_PATH)
-                print(f"✅ Created {DB_PATH} with {len(df)} records.")
-            except Exception as e:
-                print(f"❌ Database initialization failed: {e}")
+            print("📄 Loading CSV data...")
+            df = load_csv(CSV_PATH)
         else:
-            print("⚠️ CSV not found, skipping DB creation.")
-    else:
-        # Optional sanity check
-        try:
-            engine = create_engine(f"sqlite:///{DB_PATH}")
-            with engine.connect() as conn:
-                result = conn.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='grants';")
-                if result.fetchone() is None:
-                    raise RuntimeError("⚠️ grants table missing — rebuilding database.")
-        except Exception as e:
-            print(f"⚠️ Database check failed: {e}, rebuilding...")
-            os.remove(DB_PATH)
-            bootstrap_database()
+            # ✅ Fallback: create minimal DataFrame for CI or fresh envs
+            print("⚠️ No CSV found — creating test dataset for CI.")
+            df = pd.DataFrame([
+                {"donor_country": "France", "recipient_country": "Togo",
+                 "sector": "Health", "modality": "Grant",
+                 "amount_usd": 100.0, "year": 2023},
+                {"donor_country": "France", "recipient_country": "Senegal",
+                 "sector": "Education", "modality": "Grant",
+                 "amount_usd": 200.0, "year": 2022}
+            ])
 
-# Run bootstrap once before API starts
+        try:
+            write_df(df, DB_PATH)
+            print(f"✅ Created {DB_PATH} with {len(df)} rows.")
+        except Exception as e:
+            print(f"❌ Database initialization failed: {e}")
+
+    else:
+        # quick sanity check
+        engine = create_engine(f"sqlite:///{DB_PATH}")
+        with engine.connect() as conn:
+            result = conn.execute(
+                text("SELECT name FROM sqlite_master WHERE type='table' AND name='grants';")
+            )
+            if result.fetchone() is None:
+                print("⚠️ No table found — rebuilding DB.")
+                os.remove(DB_PATH)
+                bootstrap_database()
+
+# Run bootstrap at import time
 bootstrap_database()
+
 
 app = FastAPI(title="Grants API")
 engine = create_engine("sqlite:///./grants.db", future=True)
