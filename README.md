@@ -24,5 +24,13 @@ This project replicates the **ONE Campaign / Data Commons**-style data engineeri
 - **Swagger UI** auto-generated docs.
 
 
+---
+
+### ⚙️ Automatic Data Bootstrap
+
+When deployed (e.g., on Render), the API checks if `grants.db` exists at startup.  
+If missing, it automatically loads `data/raw/grants.csv` and rebuilds the database.
+
+This ensures the API always starts with a valid dataset — no manual intervention required.
 
 

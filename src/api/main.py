@@ -2,6 +2,27 @@ from fastapi import FastAPI, Query
 from sqlalchemy import create_engine, text
 from src.utils.africa import AFRICA
 
+import os
+from src.ingest.load_sheet import load_csv
+from src.ingest.load_to_db import write_df
+
+# -------------------------------------------------------------------
+# 🔄 Data bootstrap on startup
+# -------------------------------------------------------------------
+if not os.path.exists("grants.db"):
+    csv_path = "data/raw/grants.csv"
+    if os.path.exists(csv_path):
+        try:
+            print("⚙️  Bootstrapping database from CSV...")
+            df = load_csv(csv_path)
+            write_df(df, "grants.db")
+            print("✅ Database initialized successfully.")
+        except Exception as e:
+            print(f"❌ Database initialization failed: {e}")
+    else:
+        print("⚠️ CSV file not found, skipping DB creation.")
+
+
 app = FastAPI(title="Grants API")
 engine = create_engine("sqlite:///./grants.db", future=True)
 
