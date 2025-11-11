@@ -31,10 +31,11 @@ RDF alignment | ✅ Turtle generator (schema.org-ready)
 
 ```mermaid
 flowchart LR
-A[Raw CSV (OECD format)] --> B[Clean & Normalize]
-B --> C[Entity Resolution (donors, agencies, recipients)]
-C --> D[Data Quality Rules]
-D --> E[(SQLite Database)]
-E --> F[FastAPI /docs]
-E --> G[KG Export: nodes.csv + edges.csv]
-G --> H[RDF (schema.org) TTL]
+    A[Raw CSV (OECD format)] --> B[Clean & Normalize]
+    B --> C[Entity Resolution (donors, agencies, recipients)]
+    C --> D[Data Quality Rules]
+    D --> E[(SQLite Database)]
+    E --> F[FastAPI /docs]
+    E --> G[KG Export: nodes.csv + edges.csv]
+    G --> H[RDF (schema.org) TTL]
+```
