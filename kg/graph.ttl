@@ -1,0 +1,1745 @@
+@prefix schema: <https://schema.org/> .
+@prefix ex: <http://example.org/> .
+
+<http://example.org/entity/Cambodia> a schema:Place .
+
+<http://example.org/entity/Togo> a schema:Place .
+<http://example.org/entity/Togo> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Viet_Nam> a schema:Place .
+
+<http://example.org/entity/Djibouti> a schema:Place .
+<http://example.org/entity/Djibouti> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Egypt> a schema:Place .
+<http://example.org/entity/Egypt> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Cameroon> a schema:Place .
+<http://example.org/entity/Cameroon> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Ethiopia> a schema:Place .
+<http://example.org/entity/Ethiopia> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Burkina_Faso> a schema:Place .
+<http://example.org/entity/Burkina_Faso> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Thailand> a schema:Place .
+
+<http://example.org/entity/El_Salvador> a schema:Place .
+
+<http://example.org/entity/Ecuador> a schema:Place .
+
+<http://example.org/entity/Eritrea> a schema:Place .
+<http://example.org/entity/Eritrea> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Moldova> a schema:Place .
+
+<http://example.org/entity/Mongolia> a schema:Place .
+
+<http://example.org/entity/Montenegro> a schema:Place .
+
+<http://example.org/entity/Mozambique> a schema:Place .
+<http://example.org/entity/Mozambique> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Benin> a schema:Place .
+<http://example.org/entity/Benin> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Zimbabwe> a schema:Place .
+<http://example.org/entity/Zimbabwe> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Gabon> a schema:Place .
+<http://example.org/entity/Gabon> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Gambia> a schema:Place .
+<http://example.org/entity/Gambia> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Lebanon> a schema:Place .
+
+<http://example.org/entity/Liberia> a schema:Place .
+<http://example.org/entity/Liberia> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Madagascar> a schema:Place .
+<http://example.org/entity/Madagascar> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Central_African_Republic> a schema:Place .
+<http://example.org/entity/Central_African_Republic> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Bangladesh> a schema:Place .
+
+<http://example.org/entity/Iraq> a schema:Place .
+
+<http://example.org/entity/Ukraine> a schema:Place .
+
+<http://example.org/entity/Bilateral,_unspecified> a schema:Place .
+
+<http://example.org/entity/Congo> a schema:Place .
+<http://example.org/entity/Congo> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/South_Sudan> a schema:Place .
+<http://example.org/entity/South_Sudan> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Mauritania> a schema:Place .
+<http://example.org/entity/Mauritania> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Nigeria> a schema:Place .
+<http://example.org/entity/Nigeria> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Morocco> a schema:Place .
+<http://example.org/entity/Morocco> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Syrian_Arab_Republic> a schema:Place .
+
+<http://example.org/entity/India> a schema:Place .
+
+<http://example.org/entity/Türkiye> a schema:Place .
+
+<http://example.org/entity/Philippines> a schema:Place .
+
+<http://example.org/entity/Indonesia> a schema:Place .
+
+<http://example.org/entity/Tunisia> a schema:Place .
+<http://example.org/entity/Tunisia> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Ghana> a schema:Place .
+<http://example.org/entity/Ghana> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Azerbaijan> a schema:Place .
+
+<http://example.org/entity/Senegal> a schema:Place .
+<http://example.org/entity/Senegal> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Wallis_and_Futuna> a schema:Place .
+
+<http://example.org/entity/Democratic_Republic_of_the_Congo> a schema:Place .
+
+<http://example.org/entity/Rwanda> a schema:Place .
+<http://example.org/entity/Rwanda> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Brazil> a schema:Place .
+
+<http://example.org/entity/Honduras> a schema:Place .
+
+<http://example.org/entity/Dominican_Republic> a schema:Place .
+
+<http://example.org/entity/Mexico> a schema:Place .
+
+<http://example.org/entity/Peru> a schema:Place .
+
+<http://example.org/entity/Paraguay> a schema:Place .
+
+<http://example.org/entity/Mali> a schema:Place .
+<http://example.org/entity/Mali> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Côte_d'Ivoire> a schema:Place .
+
+<http://example.org/entity/Lao_People's_Democratic_Republic> a schema:Place .
+
+<http://example.org/entity/Costa_Rica> a schema:Place .
+
+<http://example.org/entity/Armenia> a schema:Place .
+
+<http://example.org/entity/Haiti> a schema:Place .
+
+<http://example.org/entity/Nepal> a schema:Place .
+
+<http://example.org/entity/Niger> a schema:Place .
+<http://example.org/entity/Niger> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Chad> a schema:Place .
+<http://example.org/entity/Chad> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Kenya> a schema:Place .
+<http://example.org/entity/Kenya> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Western_Africa,_regional> a schema:Place .
+
+<http://example.org/entity/Jordan> a schema:Place .
+
+<http://example.org/entity/Pakistan> a schema:Place .
+
+<http://example.org/entity/Uganda> a schema:Place .
+<http://example.org/entity/Uganda> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/North_of_Sahara,_regional> a schema:Place .
+
+<http://example.org/entity/Guyana> a schema:Place .
+
+<http://example.org/entity/Algeria> a schema:Place .
+<http://example.org/entity/Algeria> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Burundi> a schema:Place .
+<http://example.org/entity/Burundi> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Iran> a schema:Place .
+
+<http://example.org/entity/Africa,_regional> a schema:Place .
+
+<http://example.org/entity/South_Africa> a schema:Place .
+<http://example.org/entity/South_Africa> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Guatemala> a schema:Place .
+
+<http://example.org/entity/Guinea> a schema:Place .
+<http://example.org/entity/Guinea> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Panama> a schema:Place .
+
+<http://example.org/entity/West_Bank_and_Gaza_Strip> a schema:Place .
+
+<http://example.org/entity/Sri_Lanka> a schema:Place .
+
+<http://example.org/entity/Vanuatu> a schema:Place .
+
+<http://example.org/entity/Jamaica> a schema:Place .
+
+<http://example.org/entity/Kazakhstan> a schema:Place .
+
+<http://example.org/entity/Equatorial_Guinea> a schema:Place .
+<http://example.org/entity/Equatorial_Guinea> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Eastern_Africa,_regional> a schema:Place .
+
+<http://example.org/entity/Malaysia> a schema:Place .
+
+<http://example.org/entity/Mauritius> a schema:Place .
+<http://example.org/entity/Mauritius> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Europe,_regional> a schema:Place .
+
+<http://example.org/entity/Middle_Africa,_regional> a schema:Place .
+
+<http://example.org/entity/Uzbekistan> a schema:Place .
+
+<http://example.org/entity/Angola> a schema:Place .
+<http://example.org/entity/Angola> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Bolivia> a schema:Place .
+
+<http://example.org/entity/Libya> a schema:Place .
+<http://example.org/entity/Libya> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Cabo_Verde> a schema:Place .
+
+<http://example.org/entity/Afghanistan> a schema:Place .
+
+<http://example.org/entity/Comoros> a schema:Place .
+<http://example.org/entity/Comoros> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/North_Macedonia> a schema:Place .
+
+<http://example.org/entity/Eswatini> a schema:Place .
+<http://example.org/entity/Eswatini> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Fiji> a schema:Place .
+
+<http://example.org/entity/Namibia> a schema:Place .
+<http://example.org/entity/Namibia> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Saint_Lucia> a schema:Place .
+
+<http://example.org/entity/Saint_Vincent_and_the_Grenadines> a schema:Place .
+
+<http://example.org/entity/Argentina> a schema:Place .
+
+<http://example.org/entity/Kosovo> a schema:Place .
+
+<http://example.org/entity/Lesotho> a schema:Place .
+<http://example.org/entity/Lesotho> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Serbia> a schema:Place .
+
+<http://example.org/entity/South_America,_regional> a schema:Place .
+
+<http://example.org/entity/Kyrgyzstan> a schema:Place .
+
+<http://example.org/entity/Nicaragua> a schema:Place .
+
+<http://example.org/entity/Malawi> a schema:Place .
+<http://example.org/entity/Malawi> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Melanesia,_regional> a schema:Place .
+
+<http://example.org/entity/Middle_East,_regional> a schema:Place .
+
+<http://example.org/entity/Colombia> a schema:Place .
+
+<http://example.org/entity/Sao_Tome_and_Principe> a schema:Place .
+<http://example.org/entity/Sao_Tome_and_Principe> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Tanzania> a schema:Place .
+<http://example.org/entity/Tanzania> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Far_East_Asia,_regional> a schema:Place .
+
+<http://example.org/entity/Caribbean_&_Central_America,_regional> a schema:Place .
+
+<http://example.org/entity/Cuba> a schema:Place .
+
+<http://example.org/entity/Yemen> a schema:Place .
+
+<http://example.org/entity/Zambia> a schema:Place .
+<http://example.org/entity/Zambia> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Georgia> a schema:Place .
+
+<http://example.org/entity/Grenada> a schema:Place .
+
+<http://example.org/entity/Albania> a schema:Place .
+
+<http://example.org/entity/South_&_Central_Asia,_regional> a schema:Place .
+
+<http://example.org/entity/Timor-Leste> a schema:Place .
+
+<http://example.org/entity/Turkmenistan> a schema:Place .
+
+<http://example.org/entity/Sudan> a schema:Place .
+<http://example.org/entity/Sudan> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Myanmar> a schema:Place .
+
+<http://example.org/entity/Dominica> a schema:Place .
+
+<http://example.org/entity/Suriname> a schema:Place .
+
+<http://example.org/entity/Central_America,_regional> a schema:Place .
+
+<http://example.org/entity/Caribbean,_regional> a schema:Place .
+
+<http://example.org/entity/Papua_New_Guinea> a schema:Place .
+
+<http://example.org/entity/Maldives> a schema:Place .
+
+<http://example.org/entity/Guinea-Bissau> a schema:Place .
+<http://example.org/entity/Guinea-Bissau> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Solomon_Islands> a schema:Place .
+
+<http://example.org/entity/Democratic_People's_Republic_of_Korea> a schema:Place .
+
+<http://example.org/entity/Southern_Africa,_regional> a schema:Place .
+
+<http://example.org/entity/Sierra_Leone> a schema:Place .
+<http://example.org/entity/Sierra_Leone> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Tajikistan> a schema:Place .
+
+<http://example.org/entity/Venezuela> a schema:Place .
+
+<http://example.org/entity/Central_Asia,_regional> a schema:Place .
+
+<http://example.org/entity/Asia,_regional> a schema:Place .
+
+<http://example.org/entity/Bosnia_and_Herzegovina> a schema:Place .
+
+<http://example.org/entity/America,_regional> a schema:Place .
+
+<http://example.org/entity/Somalia> a schema:Place .
+<http://example.org/entity/Somalia> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/Botswana> a schema:Place .
+<http://example.org/entity/Botswana> schema:location <http://example.org/region/Africa> .
+
+<http://example.org/entity/China_(People's_Republic_of)> a schema:Place .
+
+<http://example.org/entity/Tonga> a schema:Place .
+
+<http://example.org/entity/Belize> a schema:Place .
+
+<http://example.org/entity/Bhutan> a schema:Place .
+
+<http://example.org/entity/Belarus> a schema:Place .
+
+<http://example.org/entity/South_Asia,_regional> a schema:Place .
+
+<http://example.org/entity/South_of_Sahara,_regional> a schema:Place .
+
+<http://example.org/entity/France> a schema:Place .
+
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> a schema:Place .
+
+<http://example.org/entity/French_Ministry_of_Interior> a schema:Place .
+
+<http://example.org/entity/French_Interministerial_Agencies> a schema:Place .
+
+<http://example.org/entity/French_Ministry_of_Education_&_Research> a schema:Place .
+
+<http://example.org/entity/Ministry_of_Foreign_Affairs> a schema:Place .
+
+<http://example.org/entity/MINEFI/NATEXIS> a schema:Place .
+
+<http://example.org/entity/French_Development_Agency> a schema:Place .
+
+<http://example.org/entity/IRD> a schema:Place .
+
+<http://example.org/entity/Miscellaneous> a schema:Place .
+
+<http://example.org/entity/MIN/EQUIPEMENT> a schema:Place .
+
+<http://example.org/entity/Proparco> a schema:Place .
+
+<http://example.org/entity/CIRAD> a schema:Place .
+
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> a schema:Place .
+
+<http://example.org/entity/MIN/SANTE> a schema:Place .
+
+<http://example.org/entity/Ministry_of_Agriculture> a schema:Place .
+
+<http://example.org/entity/Ministry_of_Defence> a schema:Place .
+
+<http://example.org/entity/Other_Ministries> a schema:Place .
+
+<http://example.org/entity/STOA> a schema:Place .
+
+<http://example.org/entity/I.4._Water_Supply_&_Sanitation> a schema:Place .
+
+<http://example.org/entity/I.5.a._Government_&_Civil_Society-general> a schema:Place .
+
+<http://example.org/entity/I.2.b._Basic_Health> a schema:Place .
+
+<http://example.org/entity/I.3._Population_Policies/Programmes_&_Reproductive_Health> a schema:Place .
+
+<http://example.org/entity/I.2.a._Health,_General> a schema:Place .
+
+<http://example.org/entity/I.1.d._Post-Secondary_Education> a schema:Place .
+
+<http://example.org/entity/IV.1._General_Environment_Protection> a schema:Place .
+
+<http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> a schema:Place .
+
+<http://example.org/entity/I.1.b._Basic_Education> a schema:Place .
+
+<http://example.org/entity/VIII.1._Emergency_Response> a schema:Place .
+
+<http://example.org/entity/I.5.b._Conflict,_Peace_&_Security> a schema:Place .
+
+<http://example.org/entity/IX._Unallocated_/_Unspecified> a schema:Place .
+
+<http://example.org/entity/II.1._Transport_&_Storage> a schema:Place .
+
+<http://example.org/entity/II.2._Communications> a schema:Place .
+
+<http://example.org/entity/III.2.b._Mineral_Resources_&_Mining> a schema:Place .
+
+<http://example.org/entity/II.3.a._Energy_Policy> a schema:Place .
+
+<http://example.org/entity/II.3.b._Energy_generation,_renewable_sources> a schema:Place .
+
+<http://example.org/entity/III.2.a._Industry> a schema:Place .
+
+<http://example.org/entity/II.4._Banking_&_Financial_Services> a schema:Place .
+
+<http://example.org/entity/IV.2._Other_Multisector> a schema:Place .
+
+<http://example.org/entity/II.3.f._Energy_distribution> a schema:Place .
+
+<http://example.org/entity/III.1.a._Agriculture> a schema:Place .
+
+<http://example.org/entity/I.1.a._Education,_Level_Unspecified> a schema:Place .
+
+<http://example.org/entity/III.3.a._Trade_Policies_&_Regulations> a schema:Place .
+
+<http://example.org/entity/I.1.c._Secondary_Education> a schema:Place .
+
+<http://example.org/entity/III.3.b._Tourism> a schema:Place .
+
+<http://example.org/entity/VIII.3._Disaster_Prevention_&_Preparedness> a schema:Place .
+
+<http://example.org/entity/Administrative_Costs_of_Donors> a schema:Place .
+
+<http://example.org/entity/VI.2._Development_Food_Assistance> a schema:Place .
+
+<http://example.org/entity/III.1.c._Fishing> a schema:Place .
+
+<http://example.org/entity/II.5._Business_&_Other_Services> a schema:Place .
+
+<http://example.org/entity/Refugees_in_Donor_Countries> a schema:Place .
+
+<http://example.org/entity/VIII.2._Reconstruction_Relief_&_Rehabilitation> a schema:Place .
+
+<http://example.org/entity/III.1.b._Forestry> a schema:Place .
+
+<http://example.org/entity/I.2.c._Non-communicable_diseases_(NCDs)> a schema:Place .
+
+<http://example.org/entity/II.3.c._Energy_generation,_non-renewable_sources> a schema:Place .
+
+<http://example.org/entity/VI.1._General_Budget_Support> a schema:Place .
+
+<http://example.org/entity/VII._Action_Relating_to_Debt> a schema:Place .
+
+<http://example.org/entity/III.2.c._Construction> a schema:Place .
+
+<http://example.org/entity/VI.3._Other_Commodity_Assistance> a schema:Place .
+
+<http://example.org/entity/II.3.d._Hybrid_energy_plants> a schema:Place .
+
+<http://example.org/entity/II.3.e._Nuclear_energy_plants> a schema:Place .
+
+<http://example.org/entity/nan> a schema:Place .
+
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/French_Ministry_of_Interior> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/French_Interministerial_Agencies> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/French_Ministry_of_Education_&_Research> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/Ministry_of_Foreign_Affairs> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/MINEFI/NATEXIS> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/French_Development_Agency> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/IRD> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/Miscellaneous> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/MIN/EQUIPEMENT> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/Proparco> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/CIRAD> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/MIN/SANTE> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/Ministry_of_Agriculture> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/Ministry_of_Defence> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/Other_Ministries> .
+<http://example.org/entity/France> schema:funds_through <http://example.org/entity/STOA> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Djibouti> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Egypt> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/El_Salvador> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Ecuador> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Eritrea> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Moldova> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Mongolia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Montenegro> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Zimbabwe> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Gambia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Liberia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Central_African_Republic> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Bangladesh> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Iraq> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Ukraine> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/South_Sudan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Nigeria> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Bangladesh> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Syrian_Arab_Republic> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Ecuador> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/India> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Türkiye> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Philippines> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Indonesia> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Ghana> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Indonesia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Azerbaijan> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Wallis_and_Futuna> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Democratic_Republic_of_the_Congo> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Honduras> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Dominican_Republic> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Mexico> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Paraguay> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Mali> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Costa_Rica> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Mali> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Türkiye> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Armenia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Syrian_Arab_Republic> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Haiti> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Nepal> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Niger> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Haiti> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/India> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Egypt> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Kenya> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Western_Africa,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Jordan> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Pakistan> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Uganda> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/North_of_Sahara,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Mali> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Guyana> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Haiti> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Indonesia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Türkiye> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Algeria> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Burundi> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Ghana> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Mali> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Iran> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Africa,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Democratic_Republic_of_the_Congo> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Türkiye> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Nigeria> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Guatemala> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Uganda> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Panama> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/West_Bank_and_Gaza_Strip> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Sri_Lanka> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Vanuatu> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Jamaica> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Kazakhstan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Kenya> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Equatorial_Guinea> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/India> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Mali> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Democratic_Republic_of_the_Congo> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Africa,_regional> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Burundi> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Ukraine> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Eastern_Africa,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Niger> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Ecuador> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Malaysia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Mongolia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/West_Bank_and_Gaza_Strip> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Mauritius> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Europe,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Costa_Rica> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Middle_Africa,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Philippines> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Uzbekistan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Jordan> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Angola> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Iraq> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/West_Bank_and_Gaza_Strip> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Democratic_Republic_of_the_Congo> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Mexico> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Djibouti> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Armenia> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Vanuatu> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Bolivia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Libya> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Cabo_Verde> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Afghanistan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Honduras> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Paraguay> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Philippines> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Uganda> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Algeria> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Gambia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Kenya> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/North_Macedonia> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Eswatini> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Fiji> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Namibia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Nepal> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Central_African_Republic> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Philippines> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Dominican_Republic> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Saint_Lucia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Saint_Vincent_and_the_Grenadines> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Argentina> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Kosovo> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Lesotho> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Nigeria> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Serbia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Indonesia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/India> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Haiti> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/South_America,_regional> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Kyrgyzstan> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Türkiye> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Gambia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Nicaragua> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Niger> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Algeria> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Malawi> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Europe,_regional> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Armenia> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Egypt> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Ukraine> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Montenegro> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Melanesia,_regional> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Mauritius> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Egypt> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Mexico> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Middle_East,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Colombia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Nepal> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Nicaragua> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Sao_Tome_and_Principe> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Algeria> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Tanzania> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/North_Macedonia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Far_East_Asia,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Caribbean_&_Central_America,_regional> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Djibouti> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Malawi> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Colombia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Colombia> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Cuba> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Tanzania> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Yemen> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Zambia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Namibia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Ghana> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Georgia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Ghana> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Grenada> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Nigeria> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Uganda> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Uzbekistan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Pakistan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Zambia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Bolivia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Afghanistan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Niger> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Libya> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Yemen> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Pakistan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Georgia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Panama> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Africa,_regional> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Zimbabwe> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Kenya> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/India> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Indonesia> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Guatemala> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Equatorial_Guinea> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/West_Bank_and_Gaza_Strip> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Panama> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Paraguay> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Albania> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/West_Bank_and_Gaza_Strip> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Bangladesh> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Eastern_Africa,_regional> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Ghana> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Ecuador> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Iraq> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/South_America,_regional> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Tanzania> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Djibouti> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/South_&_Central_Asia,_regional> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Pakistan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Timor-Leste> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Bangladesh> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Sri_Lanka> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Europe,_regional> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Turkmenistan> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Georgia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Mauritius> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Sudan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Costa_Rica> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Sudan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Moldova> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Myanmar> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Colombia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Montenegro> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Uganda> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Armenia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Nicaragua> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Burundi> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Dominica> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Bolivia> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Ukraine> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Mongolia> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Serbia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Philippines> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Suriname> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Central_America,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Caribbean,_regional> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Sudan> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Jordan> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Papua_New_Guinea> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Maldives> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Mali> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Iraq> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Jordan> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Syrian_Arab_Republic> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Egypt> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Democratic_Republic_of_the_Congo> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Democratic_Republic_of_the_Congo> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Dominican_Republic> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Guinea-Bissau> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Guyana> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Haiti> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Honduras> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Kyrgyzstan> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Nepal> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Ecuador> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Nepal> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Mexico> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Namibia> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:funds_to <http://example.org/entity/Middle_East,_regional> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:funds_to <http://example.org/entity/Middle_Africa,_regional> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Mauritius> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Mauritius> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Solomon_Islands> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/India> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Indonesia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Iran> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Democratic_People's_Republic_of_Korea> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Saint_Lucia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Saint_Vincent_and_the_Grenadines> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Myanmar> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Sri_Lanka> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Iraq> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Paraguay> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Southern_Africa,_regional> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Niger> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Sierra_Leone> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Tanzania> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Egypt> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Tajikistan> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Uzbekistan> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Ecuador> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Afghanistan> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Myanmar> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Jamaica> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Egypt> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Egypt> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/India> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Argentina> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Vanuatu> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Dominican_Republic> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Venezuela> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Zambia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Central_African_Republic> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Central_African_Republic> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Middle_East,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Albania> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Ukraine> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Guinea-Bissau> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Serbia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/South_Sudan> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Moldova> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Nepal> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Liberia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Central_Asia,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Zimbabwe> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/North_Macedonia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Cuba> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Asia,_regional> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Montenegro> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Bolivia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Uganda> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Serbia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Cabo_Verde> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Georgia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Kazakhstan> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Sierra_Leone> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Colombia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Bangladesh> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Ecuador> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Mexico> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Indonesia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Argentina> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Myanmar> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Angola> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Bosnia_and_Herzegovina> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Nigeria> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Sao_Tome_and_Principe> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Yemen> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Albania> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Cuba> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Ghana> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Guinea-Bissau> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Jordan> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Montenegro> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Nicaragua> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Kosovo> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/America,_regional> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Guinea-Bissau> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Cuba> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Paraguay> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Sierra_Leone> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Angola> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Azerbaijan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Uzbekistan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Georgia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Bosnia_and_Herzegovina> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Tajikistan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/El_Salvador> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Equatorial_Guinea> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Wallis_and_Futuna> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Bosnia_and_Herzegovina> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Kosovo> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Malawi> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Somalia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Guatemala> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Maldives> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Botswana> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Eswatini> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Suriname> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Mongolia> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Afghanistan> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Fiji> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Iran> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Philippines> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Moldova> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Mongolia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Saint_Lucia> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Grenada> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Costa_Rica> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Dominica> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Sri_Lanka> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Cabo_Verde> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Mexico> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Namibia> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Nepal> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/South_America,_regional> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Mauritius> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Cuba> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Ecuador> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Gambia> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Ghana> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Guyana> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Haiti> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Honduras> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/India> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Indonesia> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Kenya> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Djibouti> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Egypt> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Cabo_Verde> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Fiji> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Bangladesh> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Albania> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Algeria> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Argentina> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Armenia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Democratic_Republic_of_the_Congo> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Western_Africa,_regional> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Iraq> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Tanzania> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Dominican_Republic> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Guatemala> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Bolivia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Liberia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Cabo_Verde> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Uzbekistan> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/West_Bank_and_Gaza_Strip> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Middle_Africa,_regional> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Jordan> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Guatemala> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Yemen> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Albania> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/China_(People's_Republic_of)> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Moldova> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Sierra_Leone> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Mauritius> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Malawi> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Mexico> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Nicaragua> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Colombia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Tajikistan> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Serbia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Costa_Rica> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Botswana> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Kazakhstan> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Sri_Lanka> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Fiji> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/El_Salvador> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Argentina> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Ukraine> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Niger> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Far_East_Asia,_regional> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Bosnia_and_Herzegovina> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Syrian_Arab_Republic> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/MIN/SANTE> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/MIN/SANTE> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/MIN/SANTE> schema:funds_to <http://example.org/entity/Europe,_regional> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Mongolia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Southern_Africa,_regional> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Haiti> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/India> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Kenya> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Libya> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Cabo_Verde> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Central_America,_regional> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Ecuador> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Zambia> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Zimbabwe> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Africa,_regional> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Armenia> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Burundi> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Philippines> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Türkiye> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Algeria> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Djibouti> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Nigeria> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Uganda> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Panama> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/El_Salvador> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Maldives> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Kenya> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Armenia> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Georgia> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Vanuatu> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Tanzania> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Sudan> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Djibouti> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Uzbekistan> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Bosnia_and_Herzegovina> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Eswatini> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Albania> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Burundi> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Nigeria> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Kazakhstan> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Argentina> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Jordan> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Algeria> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Azerbaijan> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Montenegro> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Tajikistan> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Pakistan> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Dominican_Republic> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Lesotho> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Nicaragua> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Kyrgyzstan> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Botswana> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Africa,_regional> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Somalia> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Papua_New_Guinea> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Fiji> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Democratic_People's_Republic_of_Korea> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Moldova> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Guinea-Bissau> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Iraq> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Jamaica> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Jordan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Kazakhstan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Sao_Tome_and_Principe> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Serbia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Sierra_Leone> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:funds_to <http://example.org/entity/West_Bank_and_Gaza_Strip> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Niger> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Niger> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Burundi> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Djibouti> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Kenya> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Kyrgyzstan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Kosovo> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Lesotho> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Somalia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Sudan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Sri_Lanka> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Mali> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Egypt> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Bolivia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Burundi> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Colombia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Cuba> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Libya> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Malaysia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Mexico> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Suriname> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Tajikistan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Mauritius> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Tanzania> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Tonga> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Turkmenistan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Yemen> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Zimbabwe> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Djibouti> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Dominica> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Myanmar> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Azerbaijan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Bangladesh> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Belize> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Bhutan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Belarus> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Syrian_Arab_Republic> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Malawi> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Maldives> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Ukraine> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Venezuela> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Costa_Rica> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Europe,_regional> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Türkiye> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Vanuatu> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Liberia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Afghanistan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Albania> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Angola> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Argentina> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/North_Macedonia> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/North_of_Sahara,_regional> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Central_African_Republic> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Algeria> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Gambia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/South_Sudan> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Armenia> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Bosnia_and_Herzegovina> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Botswana> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:funds_to <http://example.org/entity/Cabo_Verde> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Ukraine> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Myanmar> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Africa,_regional> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Ghana> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Haiti> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Sierra_Leone> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Liberia> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Equatorial_Guinea> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Botswana> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Albania> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/India> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Argentina> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Philippines> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Mexico> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Nigeria> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Colombia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/Ministry_of_Defence> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/Ministry_of_Defence> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/Ministry_of_Defence> schema:funds_to <http://example.org/entity/Djibouti> .
+<http://example.org/entity/Ministry_of_Defence> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/Ministry_of_Defence> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/Ministry_of_Defence> schema:funds_to <http://example.org/entity/Niger> .
+<http://example.org/entity/Ministry_of_Defence> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Thailand> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Dominican_Republic> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/South_Asia,_regional> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Kenya> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Türkiye> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Uganda> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Ukraine> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Viet_Nam> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/West_Bank_and_Gaza_Strip> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Kosovo> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Bangladesh> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Somalia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Albania> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Algeria> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Angola> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Azerbaijan> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Bosnia_and_Herzegovina> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Colombia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Kazakhstan> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Liberia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Montenegro> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Uzbekistan> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Dominican_Republic> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Serbia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Sudan> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Sri_Lanka> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Georgia> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Algeria> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Central_African_Republic> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Ethiopia> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Haiti> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Mali> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Mauritius> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Nigeria> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Türkiye> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Ukraine> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Burundi> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Congo> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Democratic_Republic_of_the_Congo> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Malaysia> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Pakistan> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Armenia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Burkina_Faso> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Haiti> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Gambia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Mexico> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Mongolia> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:funds_to <http://example.org/entity/Africa,_regional> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:funds_to <http://example.org/entity/Moldova> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Democratic_Republic_of_the_Congo> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Venezuela> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Argentina> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Botswana> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Cambodia> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Central_African_Republic> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:funds_to <http://example.org/entity/Armenia> .
+<http://example.org/entity/Ministry_of_Defence> schema:funds_to <http://example.org/entity/West_Bank_and_Gaza_Strip> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/Other_Ministries> schema:funds_to <http://example.org/entity/Africa,_regional> .
+<http://example.org/entity/Other_Ministries> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Myanmar> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Malaysia> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/El_Salvador> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Kosovo> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Grenada> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Georgia> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Lao_People's_Democratic_Republic> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Lebanon> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Saint_Lucia> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Dominican_Republic> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Rwanda> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Togo> .
+<http://example.org/entity/Miscellaneous> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Mauritania> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Moldova> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Myanmar> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Niger> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/West_Bank_and_Gaza_Strip> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Peru> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Philippines> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:funds_to <http://example.org/entity/Central_African_Republic> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Zambia> .
+<http://example.org/entity/Proparco> schema:funds_to <http://example.org/entity/Nepal> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Chad> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Democratic_Republic_of_the_Congo> .
+<http://example.org/entity/STOA> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Benin> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Gabon> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Ghana> .
+<http://example.org/entity/STOA> schema:funds_to <http://example.org/entity/Bilateral,_unspecified> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Guinea> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Côte_d'Ivoire> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Kenya> .
+<http://example.org/entity/STOA> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Madagascar> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Mauritius> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Mozambique> .
+<http://example.org/entity/STOA> schema:funds_to <http://example.org/entity/Brazil> .
+<http://example.org/entity/STOA> schema:funds_to <http://example.org/entity/Africa,_regional> .
+<http://example.org/entity/STOA> schema:funds_to <http://example.org/entity/Cameroon> .
+<http://example.org/entity/STOA> schema:funds_to <http://example.org/entity/Dominican_Republic> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Zimbabwe> .
+<http://example.org/entity/STOA> schema:funds_to <http://example.org/entity/South_of_Sahara,_regional> .
+<http://example.org/entity/STOA> schema:funds_to <http://example.org/entity/Eastern_Africa,_regional> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Senegal> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Costa_Rica> .
+<http://example.org/entity/STOA> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Morocco> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/Tunisia> .
+<http://example.org/entity/CIRAD> schema:funds_to <http://example.org/entity/South_Africa> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Colombia> .
+<http://example.org/entity/IRD> schema:funds_to <http://example.org/entity/Comoros> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Sudan> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Belarus> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Syrian_Arab_Republic> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:funds_to <http://example.org/entity/Eritrea> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Guatemala> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Honduras> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:funds_to <http://example.org/entity/Venezuela> .
+<http://example.org/entity/French_Development_Agency> schema:funds_to <http://example.org/entity/Kazakhstan> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.4._Water_Supply_&_Sanitation> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:supports_sector <http://example.org/entity/I.5.a._Government_&_Civil_Society-general> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/I.2.b._Basic_Health> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/I.3._Population_Policies/Programmes_&_Reproductive_Health> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:supports_sector <http://example.org/entity/I.1.d._Post-Secondary_Education> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/IV.1._General_Environment_Protection> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.1.b._Basic_Education> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.2.b._Basic_Health> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/VIII.1._Emergency_Response> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.5.a._Government_&_Civil_Society-general> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.5.b._Conflict,_Peace_&_Security> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/IX._Unallocated_/_Unspecified> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/II.1._Transport_&_Storage> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/II.2._Communications> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/III.2.b._Mineral_Resources_&_Mining> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/I.4._Water_Supply_&_Sanitation> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/II.3.a._Energy_Policy> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/II.3.b._Energy_generation,_renewable_sources> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/III.2.a._Industry> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/II.4._Banking_&_Financial_Services> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.4._Water_Supply_&_Sanitation> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/IV.2._Other_Multisector> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/II.3.f._Energy_distribution> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/IV.1._General_Environment_Protection> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/II.1._Transport_&_Storage> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.1.d._Post-Secondary_Education> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/III.1.a._Agriculture> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/II.3.b._Energy_generation,_renewable_sources> .
+<http://example.org/entity/IRD> schema:supports_sector <http://example.org/entity/IV.1._General_Environment_Protection> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.5.a._Government_&_Civil_Society-general> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.2.b._Basic_Health> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.1.a._Education,_Level_Unspecified> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/III.3.a._Trade_Policies_&_Regulations> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.1.c._Secondary_Education> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:supports_sector <http://example.org/entity/I.4._Water_Supply_&_Sanitation> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/I.4._Water_Supply_&_Sanitation> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/II.3.b._Energy_generation,_renewable_sources> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/II.4._Banking_&_Financial_Services> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/III.2.a._Industry> .
+<http://example.org/entity/CIRAD> schema:supports_sector <http://example.org/entity/III.1.a._Agriculture> .
+<http://example.org/entity/IRD> schema:supports_sector <http://example.org/entity/IX._Unallocated_/_Unspecified> .
+<http://example.org/entity/IRD> schema:supports_sector <http://example.org/entity/IV.2._Other_Multisector> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/VIII.1._Emergency_Response> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/III.3.b._Tourism> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.1.c._Secondary_Education> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/III.1.a._Agriculture> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/VIII.3._Disaster_Prevention_&_Preparedness> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.1.d._Post-Secondary_Education> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/IX._Unallocated_/_Unspecified> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/Administrative_Costs_of_Donors> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/IV.2._Other_Multisector> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.1.b._Basic_Education> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.1.c._Secondary_Education> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/VI.2._Development_Food_Assistance> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.5.a._Government_&_Civil_Society-general> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/III.3.a._Trade_Policies_&_Regulations> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.1.a._Education,_Level_Unspecified> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/III.1.a._Agriculture> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/III.1.c._Fishing> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.1.d._Post-Secondary_Education> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/II.5._Business_&_Other_Services> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/IV.2._Other_Multisector> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.1.c._Secondary_Education> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/Administrative_Costs_of_Donors> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.1.a._Education,_Level_Unspecified> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.2.b._Basic_Health> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/Refugees_in_Donor_Countries> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/VIII.2._Reconstruction_Relief_&_Rehabilitation> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.1.b._Basic_Education> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/IX._Unallocated_/_Unspecified> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/II.2._Communications> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.5.b._Conflict,_Peace_&_Security> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.3._Population_Policies/Programmes_&_Reproductive_Health> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/II.3.a._Energy_Policy> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.5.a._Government_&_Civil_Society-general> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/VIII.3._Disaster_Prevention_&_Preparedness> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.5.b._Conflict,_Peace_&_Security> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/III.1.c._Fishing> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.2.b._Basic_Health> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/II.2._Communications> .
+<http://example.org/entity/IRD> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/IRD> schema:supports_sector <http://example.org/entity/I.2.b._Basic_Health> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/II.5._Business_&_Other_Services> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/I.5.a._Government_&_Civil_Society-general> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/III.1.b._Forestry> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/III.2.a._Industry> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.1.a._Education,_Level_Unspecified> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/II.3.b._Energy_generation,_renewable_sources> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/I.2.c._Non-communicable_diseases_(NCDs)> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.3._Population_Policies/Programmes_&_Reproductive_Health> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/II.3.c._Energy_generation,_non-renewable_sources> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/VIII.2._Reconstruction_Relief_&_Rehabilitation> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/II.1._Transport_&_Storage> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/II.3.c._Energy_generation,_non-renewable_sources> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/III.3.a._Trade_Policies_&_Regulations> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/IV.2._Other_Multisector> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/III.1.a._Agriculture> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/I.2.b._Basic_Health> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/III.3.a._Trade_Policies_&_Regulations> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.2.c._Non-communicable_diseases_(NCDs)> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/I.2.b._Basic_Health> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/IX._Unallocated_/_Unspecified> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/VIII.2._Reconstruction_Relief_&_Rehabilitation> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.2.c._Non-communicable_diseases_(NCDs)> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/VI.1._General_Budget_Support> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/III.1.c._Fishing> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/III.2.b._Mineral_Resources_&_Mining> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/VI.2._Development_Food_Assistance> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/II.5._Business_&_Other_Services> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/VII._Action_Relating_to_Debt> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/IV.1._General_Environment_Protection> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/VI.1._General_Budget_Support> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/II.3.f._Energy_distribution> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/III.1.a._Agriculture> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/II.3.f._Energy_distribution> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/II.5._Business_&_Other_Services> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/IV.2._Other_Multisector> .
+<http://example.org/entity/IRD> schema:supports_sector <http://example.org/entity/I.3._Population_Policies/Programmes_&_Reproductive_Health> .
+<http://example.org/entity/IRD> schema:supports_sector <http://example.org/entity/I.2.c._Non-communicable_diseases_(NCDs)> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.3._Population_Policies/Programmes_&_Reproductive_Health> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/VIII.3._Disaster_Prevention_&_Preparedness> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/II.3.a._Energy_Policy> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/VIII.1._Emergency_Response> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.4._Water_Supply_&_Sanitation> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/III.2.c._Construction> .
+<http://example.org/entity/IRD> schema:supports_sector <http://example.org/entity/III.1.c._Fishing> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/III.1.a._Agriculture> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/IV.1._General_Environment_Protection> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/III.3.b._Tourism> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/II.1._Transport_&_Storage> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/II.3.a._Energy_Policy> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/I.5.b._Conflict,_Peace_&_Security> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/II.4._Banking_&_Financial_Services> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/VI.1._General_Budget_Support> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/Administrative_Costs_of_Donors> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/IX._Unallocated_/_Unspecified> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:supports_sector <http://example.org/entity/IV.2._Other_Multisector> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/I.5.b._Conflict,_Peace_&_Security> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/II.2._Communications> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/I.1.d._Post-Secondary_Education> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/II.3.b._Energy_generation,_renewable_sources> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/II.3.a._Energy_Policy> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/I.2.c._Non-communicable_diseases_(NCDs)> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/II.5._Business_&_Other_Services> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/VI.2._Development_Food_Assistance> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/III.3.b._Tourism> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/VI.3._Other_Commodity_Assistance> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/III.1.b._Forestry> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/II.2._Communications> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/IX._Unallocated_/_Unspecified> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/III.3.b._Tourism> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/II.3.c._Energy_generation,_non-renewable_sources> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/III.2.a._Industry> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/II.4._Banking_&_Financial_Services> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/II.3.d._Hybrid_energy_plants> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/III.1.b._Forestry> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/II.1._Transport_&_Storage> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/III.2.c._Construction> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/III.2.c._Construction> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/II.1._Transport_&_Storage> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/III.2.a._Industry> .
+<http://example.org/entity/French_Ministry_of_Foreign_Affairs_(MAE)> schema:supports_sector <http://example.org/entity/II.4._Banking_&_Financial_Services> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/VIII.2._Reconstruction_Relief_&_Rehabilitation> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/VI.2._Development_Food_Assistance> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/IV.1._General_Environment_Protection> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/VII._Action_Relating_to_Debt> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/I.1.c._Secondary_Education> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/II.3.f._Energy_distribution> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/II.3.a._Energy_Policy> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/II.3.d._Hybrid_energy_plants> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:supports_sector <http://example.org/entity/IV.2._Other_Multisector> .
+<http://example.org/entity/MIN/EQUIPEMENT> schema:supports_sector <http://example.org/entity/I.2.c._Non-communicable_diseases_(NCDs)> .
+<http://example.org/entity/MIN/SANTE> schema:supports_sector <http://example.org/entity/I.5.a._Government_&_Civil_Society-general> .
+<http://example.org/entity/MIN/SANTE> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/MIN/SANTE> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/MIN/SANTE> schema:supports_sector <http://example.org/entity/I.2.c._Non-communicable_diseases_(NCDs)> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/I.1.b._Basic_Education> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.1.b._Basic_Education> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.5.b._Conflict,_Peace_&_Security> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/III.1.c._Fishing> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.4._Water_Supply_&_Sanitation> .
+<http://example.org/entity/IRD> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/IV.1._General_Environment_Protection> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/IV.2._Other_Multisector> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/III.1.c._Fishing> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/III.2.c._Construction> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/III.3.b._Tourism> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/VII._Action_Relating_to_Debt> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/I.1.a._Education,_Level_Unspecified> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/VI.1._General_Budget_Support> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/Refugees_in_Donor_Countries> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/I.5.a._Government_&_Civil_Society-general> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/IV.2._Other_Multisector> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/I.5.a._Government_&_Civil_Society-general> .
+<http://example.org/entity/French_Ministry_of_Education_&_Research> schema:supports_sector <http://example.org/entity/III.1.a._Agriculture> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/Administrative_Costs_of_Donors> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/I.5.b._Conflict,_Peace_&_Security> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/Ministry_of_Agriculture> schema:supports_sector <http://example.org/entity/III.1.a._Agriculture> .
+<http://example.org/entity/Ministry_of_Defence> schema:supports_sector <http://example.org/entity/I.5.b._Conflict,_Peace_&_Security> .
+<http://example.org/entity/Ministry_of_Defence> schema:supports_sector <http://example.org/entity/I.2.b._Basic_Health> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:supports_sector <http://example.org/entity/Refugees_in_Donor_Countries> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/III.3.a._Trade_Policies_&_Regulations> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/I.1.d._Post-Secondary_Education> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/II.5._Business_&_Other_Services> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/IV.1._General_Environment_Protection> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/III.1.a._Agriculture> .
+<http://example.org/entity/Ministry_of_Economy,_Finance_and_Industry> schema:supports_sector <http://example.org/entity/III.2.b._Mineral_Resources_&_Mining> .
+<http://example.org/entity/French_Ministry_of_Interior> schema:supports_sector <http://example.org/entity/Administrative_Costs_of_Donors> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/II.5._Business_&_Other_Services> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/IV.1._General_Environment_Protection> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/III.2.a._Industry> .
+<http://example.org/entity/French_Interministerial_Agencies> schema:supports_sector <http://example.org/entity/VIII.1._Emergency_Response> .
+<http://example.org/entity/Other_Ministries> schema:supports_sector <http://example.org/entity/I.1.b._Basic_Education> .
+<http://example.org/entity/Other_Ministries> schema:supports_sector <http://example.org/entity/I.2.c._Non-communicable_diseases_(NCDs)> .
+<http://example.org/entity/Other_Ministries> schema:supports_sector <http://example.org/entity/I.6._Other_Social_Infrastructure_&_Services> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/VI.3._Other_Commodity_Assistance> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/II.3.e._Nuclear_energy_plants> .
+<http://example.org/entity/MINEFI/NATEXIS> schema:supports_sector <http://example.org/entity/Administrative_Costs_of_Donors> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/I.3._Population_Policies/Programmes_&_Reproductive_Health> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/I.1.a._Education,_Level_Unspecified> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/I.2.c._Non-communicable_diseases_(NCDs)> .
+<http://example.org/entity/STOA> schema:supports_sector <http://example.org/entity/II.1._Transport_&_Storage> .
+<http://example.org/entity/STOA> schema:supports_sector <http://example.org/entity/II.3.b._Energy_generation,_renewable_sources> .
+<http://example.org/entity/STOA> schema:supports_sector <http://example.org/entity/II.2._Communications> .
+<http://example.org/entity/STOA> schema:supports_sector <http://example.org/entity/II.5._Business_&_Other_Services> .
+<http://example.org/entity/STOA> schema:supports_sector <http://example.org/entity/III.2.a._Industry> .
+<http://example.org/entity/STOA> schema:supports_sector <http://example.org/entity/I.2.a._Health,_General> .
+<http://example.org/entity/STOA> schema:supports_sector <http://example.org/entity/Administrative_Costs_of_Donors> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/II.3.d._Hybrid_energy_plants> .
+<http://example.org/entity/Ministry_of_Foreign_Affairs> schema:supports_sector <http://example.org/entity/II.3.e._Nuclear_energy_plants> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/Administrative_Costs_of_Donors> .
+<http://example.org/entity/Miscellaneous> schema:supports_sector <http://example.org/entity/IX._Unallocated_/_Unspecified> .
+<http://example.org/entity/French_Development_Agency> schema:supports_sector <http://example.org/entity/nan> .
+<http://example.org/entity/Proparco> schema:supports_sector <http://example.org/entity/nan> .
+<http://example.org/entity/STOA> schema:supports_sector <http://example.org/entity/nan> .
