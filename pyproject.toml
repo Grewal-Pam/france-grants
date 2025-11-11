@@ -1,0 +1,6 @@
+[project]
+name = "france-grants"
+version = "0.1.0"
+description = "Open data pipeline: France development grants → ETL, API, KG, RDF"
+authors = [{name = "Parminder Grewal"}]
+requires-python = ">=3.9"
