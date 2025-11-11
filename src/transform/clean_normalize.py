@@ -1,6 +1,10 @@
 import pandas as pd
 from src.utils.mappings import SECTOR_MAP, MODALITY_MAP, COUNTRY_FIX
 
+from src.utils.entity_resolver import resolve_entity
+from src.utils.data_quality import assert_no_nulls, assert_year_range, assert_positive
+
+
 # Your dataset uses these names instead of old ones
 COLUMN_MAP = {
     "donor_name": "donor_country",
@@ -36,5 +40,21 @@ def normalize(df: pd.DataFrame) -> pd.DataFrame:
     out["amount_usd"] = pd.to_numeric(out["amount"], errors="coerce").fillna(0.0)
     out["year"] = pd.to_numeric(out["year"], errors="coerce").astype("Int64").fillna(0).astype(int)
 
-    keep = ["donor_country", "recipient_country", "sector", "modality", "amount_usd", "year"]
+    # resolve donor agency names
+    out["agency_name"] = out["agency_name"].apply(resolve_entity)
+
+
+    keep = [
+    "donor_country",
+    "agency_name",
+    "recipient_country",
+    "sector",
+    "modality",
+    "amount_usd",
+    "year"
+]
+
+    assert_no_nulls(out, ["donor_country", "recipient_country", "agency_name"])
+    assert_year_range(out, "year")
+    assert_positive(out, "amount_usd")
     return out[keep]
