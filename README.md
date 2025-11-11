@@ -1,36 +1,41 @@
-# 🇫🇷 France Development Grants API  
+# 🇫🇷 France Development Grants — Open Data & Knowledge Graph Pipeline
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Grewal-Pam/france-grants/.github/workflows/ci.yml?branch=dev&style=flat-square&label=CI%20Build)](https://github.com/Grewal-Pam/france-grants/actions)
-![Python Version](https://img.shields.io/badge/python-3.9%2B-blue?style=flat-square)
-[![Deploy](https://img.shields.io/badge/Render-Live%20API-success?style=flat-square&logo=render)](https://france-grants.onrender.com/docs)
-![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Grewal-Pam/france-grants/.github/workflows/ci.yml?branch=dev)](https://github.com/Grewal-Pam/france-grants/actions)
+![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
+[![Render](https://img.shields.io/badge/Live%20API-Open-success?logo=render)](https://france-grants.onrender.com/docs)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-> **Live Demo:** [https://france-grants.onrender.com/docs](https://france-grants.onrender.com/docs)
+> **Live Docs:** https://france-grants.onrender.com/docs  
+> **Goal:** Prototype an open data service that answers:  
+> _How much development assistance did France provide to African countries for health?_
 
-
-A FastAPI-based public API that aggregates France’s development assistance grants and provides queryable endpoints for policy analysis, transparency, and research.  
-This project replicates the **ONE Campaign / Data Commons**-style data engineering case study end-to-end.
-
----
-
-## 🚀 Features
-- **ETL Pipeline:** Extracts and cleans raw CSV data of France’s health & development grants.  
-- **SQLite-backed API:** Lightweight, file-based data persistence.  
-- **Endpoints:**
-  - `/v1/grants/total` → total USD grants by donor/sector/modality.  
-  - `/v1/grants/by_year` → grant disbursements grouped by year.  
-- **Fully container-ready** (Uvicorn + FastAPI).  
-- **CI/CD via GitHub Actions + Render Deployment.**  
-- **Swagger UI** auto-generated docs.
-
+This project builds a **reproducible, open pipeline** for development-finance transparency — aligned with the data-governance and civic-tech practices used by **ONE Data** and **Data Commons**.
 
 ---
 
-### ⚙️ Automatic Data Bootstrap
+## 🎯 Objectives
 
-When deployed (e.g., on Render), the API checks if `grants.db` exists at startup.  
-If missing, it automatically loads `data/raw/grants.csv` and rebuilds the database.
+| Objective | Completed |
+|---|---|
+Extract raw grant data | ✅ OECD-style CSV ingestion  
+Normalize and standardize entities | ✅ Ministry / agency canonical mapping  
+Data quality enforcement | ✅ Null, type, non-negative checks  
+Store clean dataset | ✅ SQLite  
+Serve as public API | ✅ FastAPI + Swagger  
+Export Knowledge Graph | ✅ CSV triples (nodes + edges)  
+RDF alignment | ✅ Turtle generator (schema.org-ready)  
 
-This ensures the API always starts with a valid dataset — no manual intervention required.
+---
 
+## 🏗️ Architecture
 
+```mermaid
+flowchart LR
+    A["Raw CSV (OECD format)"] --> B["Clean & Normalize"]
+    B --> C["Entity Resolution (donors, agencies, recipients)"]
+    C --> D["Data Quality Rules"]
+    D --> E[(SQLite Database)]
+    E --> F["FastAPI /docs"]
+    E --> G["KG Export: nodes.csv + edges.csv"]
+    G --> H["RDF (schema.org) TTL"]
+```
