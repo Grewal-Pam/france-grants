@@ -1,4 +1,4 @@
-name: GCP Test Pipeline
+name: GCP Test Pipeline 2
 
 on:
   workflow_dispatch:
