@@ -1,5 +1,21 @@
-.venv/
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
 *.db
+
+# Data files
+data/raw/
+*.csv
+*.xlsx
+
+# Env & IDE
 .env
-data/raw/*
+.vscode/
+.idea/
+.DS_Store
+
+# pytest cache
+.pytest_cache/
