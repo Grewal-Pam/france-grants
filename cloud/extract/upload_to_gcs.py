@@ -7,9 +7,9 @@ This script will be triggered manually or via Airflow later.
 import os
 from google.cloud import storage
 
-BUCKET_NAME = os.getenv("GCS_BUCKET", "france-grants-data-pam")
+BUCKET_NAME = os.getenv("GCS_BUCKET", "france-grants-bronze")
 LOCAL_FILE = "data/raw/grants.csv"
-DEST_FILE = "bronze/cleaned_grants.csv"
+DEST_FILE = "raw/grants.csv"
 
 def upload_to_gcs():
     client = storage.Client()
