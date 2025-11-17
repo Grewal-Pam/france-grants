@@ -1,10 +1,10 @@
-name: GCP Test Pipeline
+name: Manual Production Deploy
 
 on:
   workflow_dispatch:
 
 jobs:
-  test-gcp-connection:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,37 +21,55 @@ jobs:
       with:
         project_id: ${{ secrets.GCP_PROJECT_ID }}
 
-    - name: Verify gcloud login
-      run: gcloud auth list
+    - name: Install Python dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install -r requirements.txt
 
-    - name: Verify BigQuery access
-      run: bq ls
+    - name: Upload raw CSV → GCS (Bronze)
+      run: python3 cloud/extract/upload_to_gcs.py
 
-name: GCP Test Pipeline 2
+    - name: Load Bronze → BigQuery
+      run: python3 cloud/load/load_to_bigquery.py
 
-on:
-  workflow_dispatch:
+    - name: Run Silver clean_grants.sql
+      run: bq query --use_legacy_sql=false < cloud/warehouse/silver/clean_grants.sql
 
-jobs:
-  test-gcp-connection:
-    runs-on: ubuntu-latest
+    - name: Run Gold - dim_country
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/dim_country.sql
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+    - name: Run Gold - dim_agency
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/dim_agency.sql
 
-    - name: Authenticate to Google Cloud
-      uses: google-github-actions/auth@v2
-      with:
-        credentials_json: ${{ secrets.GCP_SA_KEY }}
+    - name: Run Gold - dim_flow_type
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/dim_flow_type.sql
 
-    - name: Set up gcloud CLI
-      uses: google-github-actions/setup-gcloud@v2
-      with:
-        project_id: ${{ secrets.GCP_PROJECT_ID }}
+    - name: Run Gold - dim_income_group
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/dim_income_group.sql
 
-    - name: Verify gcloud login
-      run: gcloud auth list
+    - name: Run Gold - fact_financial_flows
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/fact_financial_flows.sql
 
-    - name: Verify BigQuery access
-      run: bq ls
+    - name: Run KG - nodes_country
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/nodes_country.sql
+
+    - name: Run KG - nodes_agency
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/nodes_agency.sql
+
+    - name: Run KG - nodes_flow_type
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/nodes_flow_type.sql
+
+    - name: Run KG - nodes_income_group
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/nodes_income_group.sql
+
+    - name: Run KG - edges_donor_recipient
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/edges_donor_recipient.sql
+
+    - name: Run KG - edges_donor_agency
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/edges_donor_agency.sql
+
+    - name: Run KG - edges_agency_recipient
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/edges_agency_recipient.sql
+
+    - name: Run KG - edges_flow_recipient
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/edges_flow_recipient.sql
