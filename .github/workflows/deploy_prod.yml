@@ -1,0 +1,87 @@
+name: Manual Production Deploy
+
+on:
+  workflow_dispatch:     # Run manually
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Checkout code
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2. Authenticate to Google Cloud
+    - name: Authenticate to Google Cloud
+      uses: google-github-actions/auth@v2
+      with:
+        credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+    # 3. Set up gcloud & bq
+    - name: Set up gcloud CLI
+      uses: google-github-actions/setup-gcloud@v2
+      with:
+        project_id: ${{ secrets.GCP_PROJECT_ID }}
+
+    # 4. Install Python dependencies (for GCS/BQ loaders)
+    - name: Install Python dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # ========== BRONZE ==========
+    - name: Upload raw CSV → GCS (Bronze)
+      run: |
+        python3 cloud/load/upload_to_gcs.py
+
+    - name: Load Bronze CSV → BigQuery
+      run: |
+        python3 cloud/load/load_to_bigquery.py
+
+    # ========== SILVER ==========
+    - name: Run Silver clean_grants.sql
+      run: |
+        bq query --use_legacy_sql=false < cloud/warehouse/silver/clean_grants.sql
+
+    # ========== GOLD (IN ORDER) ==========
+    - name: Run Gold - dim_country
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/dim_country.sql
+
+    - name: Run Gold - dim_agency
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/dim_agency.sql
+
+    - name: Run Gold - dim_flow_type
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/dim_flow_type.sql
+
+    - name: Run Gold - dim_income_group
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/dim_income_group.sql
+
+    - name: Run Gold - fact_financial_flows
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/fact_financial_flows.sql
+
+    # ========== KG NODES ==========
+    - name: Run KG - nodes_country
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/nodes_country.sql
+
+    - name: Run KG - nodes_agency
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/nodes_agency.sql
+
+    - name: Run KG - nodes_flow_type
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/nodes_flow_type.sql
+
+    - name: Run KG - nodes_income_group
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/nodes_income_group.sql
+
+    # ========== KG EDGES ==========
+    - name: Run KG - edges_donor_recipient
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/edges_donor_recipient.sql
+
+    - name: Run KG - edges_donor_agency
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/edges_donor_agency.sql
+
+    - name: Run KG - edges_agency_recipient
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/edges_agency_recipient.sql
+
+    - name: Run KG - edges_flow_recipient
+      run: bq query --use_legacy_sql=false < cloud/warehouse/kg/edges_flow_recipient.sql
