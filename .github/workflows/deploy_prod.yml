@@ -33,7 +33,7 @@ jobs:
     # ========== BRONZE ==========
     - name: Upload raw CSV → GCS (Bronze)
       run: |
-        python3 cloud/load/upload_to_gcs.py
+        python3 cloud/extract/upload_to_gcs.py
 
     - name: Load Bronze CSV → BigQuery
       run: |
