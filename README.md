@@ -13,7 +13,7 @@ This project builds a **reproducible, open pipeline** for development-finance tr
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 | Objective | Completed |
 |---|---|
@@ -39,3 +39,15 @@ flowchart LR
     E --> G["KG Export: nodes.csv + edges.csv"]
     G --> H["RDF (schema.org) TTL"]
 ```
+---
+
+## 🛠️ Infrastructure & Deployment
+
+For users who want a production-grade, cloud-native pipeline, this repository includes a complete Medallion Architecture (Bronze → Silver → Gold → KG) implemented with:
+
+- Google Cloud Storage (Bronze layer)
+- BigQuery (Silver/Gold/KG layers)
+- GitHub Actions CI/CD
+- Python extraction/load + SQL transformations
+
+ See the full GCP Medallion + Knowledge Graph pipeline in [cloud/](cloud/) — diagrams, SQL models, automated deploy workflows, and reproducible ELT jobs are documented in `cloud/infra/README.md`.
