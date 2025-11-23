@@ -1,5 +1,8 @@
 from fastapi import FastAPI, Query
 from google.cloud import bigquery
+from google.oauth2 import service_account
+import os
+import json
 
 # ==============================
 #  CONFIG
@@ -9,7 +12,14 @@ DATASET = "france_grants_gold"
 TABLE = "fact_enriched"
 
 app = FastAPI(title="France Grants API (BigQuery)")
-client = bigquery.Client()
+# Load credentials from environment variable
+creds_json = os.getenv("GCP_CREDENTIALS")
+credentials = service_account.Credentials.from_service_account_info(
+    json.loads(creds_json)
+)
+
+client = bigquery.Client(credentials=credentials, project="france-grants-analytics-478219")
+
 
 
 # ==============================
