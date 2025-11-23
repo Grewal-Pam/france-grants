@@ -11,7 +11,12 @@ PROJECT = "france-grants-analytics-478219"
 DATASET = "france_grants_gold"
 TABLE = "fact_enriched"
 
-app = FastAPI(title="France Grants API (BigQuery)")
+app = FastAPI(
+    title="France Grants API",
+    version="1.0.0",
+    description="Public API powered by BigQuery for aid transparency"
+)
+
 # Load credentials from environment variable
 creds_json = os.getenv("GCP_CREDENTIALS")
 credentials = service_account.Credentials.from_service_account_info(
