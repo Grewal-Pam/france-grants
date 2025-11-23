@@ -142,3 +142,13 @@ SELECT COUNT(*) FROM `france_grants_gold.fact_financial_flows`;
 -- KG
 SELECT COUNT(*) FROM `france_grants_kg.nodes_country`;
 ```
+
+[Link to Looker studio Report Live Dashboard powered by the Gold-layer `fact_enriched` table.](https://lookerstudio.google.com/reporting/1dc553e1-2dd9-46e0-a0bf-399e43bda429)
+
+### Highlights (from Gold-layer `fact_enriched` table)
+- Top funding recipients (2023)
+- Funding trend over time
+- Funding by agency
+- Funding by flow typeime
+- Funding by agency
+- Funding by flow type
