@@ -60,6 +60,9 @@ jobs:
     - name: Run Gold - fact_financial_flows
       run: bq query --use_legacy_sql=false < cloud/warehouse/gold/fact_financial_flows.sql
 
+    - name: Run Gold - fact_enriched        
+      run: bq query --use_legacy_sql=false < cloud/warehouse/gold/fact_enriched.sql
+
     # ========== KG NODES ==========
     - name: Run KG - nodes_country
       run: bq query --use_legacy_sql=false < cloud/warehouse/kg/nodes_country.sql
