@@ -24,13 +24,13 @@ jobs:
       with:
         project_id: ${{ secrets.GCP_PROJECT_ID }}
 
-    # 4. Install Python dependencies (for GCS/BQ loaders)
+      # 4. Install Python dependencies (for GCS/BQ loaders)
     - name: Install Python dependencies
       run: |
         python3 -m pip install --upgrade pip
-        run: |
-            pip install -r requirements_core.txt
-            pip install -r requirements_agent.txt
+        pip install -r requirements_core.txt
+        pip install -r requirements_agent.txt
+
 
     # ========== BRONZE ==========
     - name: Upload raw CSV → GCS (Bronze)
