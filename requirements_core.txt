@@ -6,6 +6,7 @@ python-dotenv
 httpx
 pytest
 pytest-asyncio
-
 google-cloud-storage
 google-cloud-bigquery
+numpy==1.26.4
+

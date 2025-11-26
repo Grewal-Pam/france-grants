@@ -1,0 +1,7 @@
+sentence-transformers
+chromadb
+openai
+streamlit
+matplotlib
+groq
+
