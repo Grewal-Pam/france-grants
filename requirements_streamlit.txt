@@ -1,0 +1,17 @@
+streamlit
+chromadb
+sentence-transformers
+pandas
+numpy
+matplotlib
+groq
+
+# Your agent + RAG deps
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-dotenv
+httpx
+
+google-cloud-storage
+google-cloud-bigquery
